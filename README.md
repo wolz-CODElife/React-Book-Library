@@ -1,5 +1,5 @@
 # React-Calculator
-Used react to create a basic arithmetic calculator
+Used ReactJS to create a basic arithmetic calculator
 
 ## Running the app
 - Run in shell ```npm install```
