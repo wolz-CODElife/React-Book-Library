@@ -1,0 +1,35 @@
+body {
+    background-color: #e9ebf0;
+}
+.siteTitle {
+    padding: 50px 0px;
+    text-shadow: 3px 3px 3px #a8a7a7;
+}
+section {
+    display: grid;
+}
+article {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 50px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #e0dede;
+    box-shadow: 1px 1px 1px rgb(155, 154, 154);
+    text-decoration: none;
+    color: #000;
+}
+@media screen and (min-width: 780px) {
+    section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    article {
+        margin: 20px;
+    }
+}
