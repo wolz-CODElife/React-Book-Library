@@ -7,7 +7,7 @@ const Book = ({ img, title, author, link }) => {
             <img src={img} alt="" />
             <h1>{title}</h1>
             <h4>{author}</h4>
-            <a href={link} className="button">Reference >></a>
+            <a href={link} target="_blank" rel="noreferrer" className="button">Reference >></a>
         </article>
     )
 }
